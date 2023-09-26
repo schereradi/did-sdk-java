@@ -13,12 +13,12 @@ import com.hedera.hashgraph.identity.utils.JsonUtils;
 import com.hedera.hashgraph.sdk.PublicKey;
 import com.hedera.hashgraph.sdk.TopicId;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
 import java.util.Base64;
+import java.util.function.BiFunction;
 import java.util.function.UnaryOperator;
-import java8.util.function.BiFunction;
 import javax.annotation.Nullable;
 import org.bitcoinj.core.Base58;
-import org.threeten.bp.Instant;
 
 /**
  * The DID document message submitted to appnet's DID Topic.

@@ -2,7 +2,8 @@ package com.hedera.hashgraph.identity.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.threeten.bp.Instant;
+
+import java.time.Instant;
 
 /**
  * JSON utilities for Hedera identity.

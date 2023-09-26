@@ -4,8 +4,9 @@ import com.hedera.hashgraph.identity.hcs.MessageEnvelope;
 import com.hedera.hashgraph.identity.hcs.MessageListener;
 import com.hedera.hashgraph.sdk.TopicId;
 import com.hedera.hashgraph.sdk.TopicMessage;
-import java8.util.function.BiFunction;
-import org.threeten.bp.Instant;
+
+import java.time.Instant;
+import java.util.function.BiFunction;
 
 /**
  * A listener of confirmed {@link HcsDidMessage} messages from a DID topic.

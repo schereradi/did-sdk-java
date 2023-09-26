@@ -5,13 +5,14 @@ import com.hedera.hashgraph.sdk.SubscriptionHandle;
 import com.hedera.hashgraph.sdk.TopicId;
 import com.hedera.hashgraph.sdk.TopicMessage;
 import com.hedera.hashgraph.sdk.TopicMessageQuery;
+
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import java8.util.function.BiConsumer;
-import java8.util.function.BiFunction;
-import org.threeten.bp.Instant;
 
 /**
  * A listener of confirmed messages from a HCS identity topic.

@@ -14,12 +14,12 @@ import com.hedera.hashgraph.sdk.TopicMessage;
 import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
 import java.util.Base64;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
-import java8.util.function.BiFunction;
 import org.bouncycastle.math.ec.rfc8032.Ed25519;
-import org.threeten.bp.Instant;
 
 /**
  * The envelope for Hedera identity messages sent to HCS DID or VC topics.

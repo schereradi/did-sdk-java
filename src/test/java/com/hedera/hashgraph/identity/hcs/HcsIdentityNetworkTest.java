@@ -9,10 +9,10 @@ import com.google.common.base.Charsets;
 import com.hedera.hashgraph.identity.hcs.did.HcsDid;
 import com.hedera.hashgraph.identity.utils.MirrorNodeAddress;
 import com.hedera.hashgraph.sdk.*;
-import com.sun.tools.javac.util.List;
 import io.github.cdimascio.dotenv.Dotenv;
 
 import java.security.NoSuchAlgorithmException;
+import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeoutException;
 

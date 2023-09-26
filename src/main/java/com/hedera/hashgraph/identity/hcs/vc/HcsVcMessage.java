@@ -5,10 +5,10 @@ import com.google.gson.annotations.Expose;
 import com.hedera.hashgraph.identity.hcs.Message;
 import com.hedera.hashgraph.identity.hcs.MessageEnvelope;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
 import java.util.Base64;
+import java.util.function.BiFunction;
 import java.util.function.UnaryOperator;
-import java8.util.function.BiFunction;
-import org.threeten.bp.Instant;
 
 /**
  * The Verifiable Credential message.

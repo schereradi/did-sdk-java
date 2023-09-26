@@ -12,11 +12,11 @@ import com.hedera.hashgraph.identity.utils.JsonUtils;
 import com.hedera.hashgraph.identity.utils.SingleToArrayTypeAdapterFactory;
 import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import org.bitcoinj.core.Base58;
-import org.threeten.bp.Instant;
 
 /**
  * The base for a VC document generation in JSON-LD format.

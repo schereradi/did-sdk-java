@@ -1,11 +1,11 @@
 package com.hedera.hashgraph.identity.hcs.example.appnet;
 
 import io.github.cdimascio.dotenv.Dotenv;
-import org.threeten.bp.Instant;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Instant;
 
 /**
  * This class implements appnet storage properties for use by AppnetStorage.

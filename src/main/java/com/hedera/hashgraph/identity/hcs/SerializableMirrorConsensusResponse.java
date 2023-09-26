@@ -2,8 +2,8 @@ package com.hedera.hashgraph.identity.hcs;
 
 import com.hedera.hashgraph.sdk.TopicMessage;
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.Arrays;
-import org.threeten.bp.Instant;
 
 /**
  * This class is a serializable copy of the MirrorConsensusResponse class from the Java SDK.

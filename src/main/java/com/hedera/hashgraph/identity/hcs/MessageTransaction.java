@@ -3,12 +3,12 @@ package com.hedera.hashgraph.identity.hcs;
 import com.google.common.base.Strings;
 import com.hedera.hashgraph.identity.utils.Validator;
 import com.hedera.hashgraph.sdk.*;
-import java8.util.function.BiFunction;
-import org.threeten.bp.Instant;
 
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
 import java.util.Arrays;
 import java.util.concurrent.TimeoutException;
+import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;

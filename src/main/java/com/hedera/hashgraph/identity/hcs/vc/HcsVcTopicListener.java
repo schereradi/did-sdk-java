@@ -5,10 +5,11 @@ import com.hedera.hashgraph.identity.hcs.MessageListener;
 import com.hedera.hashgraph.sdk.PublicKey;
 import com.hedera.hashgraph.sdk.TopicId;
 import com.hedera.hashgraph.sdk.TopicMessage;
+
+import java.time.Instant;
 import java.util.Collection;
+import java.util.function.BiFunction;
 import java.util.function.Function;
-import java8.util.function.BiFunction;
-import org.threeten.bp.Instant;
 
 /**
  * A listener of confirmed {@link HcsVcMessage} messages from a VC topic.

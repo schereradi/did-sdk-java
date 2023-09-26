@@ -7,8 +7,9 @@ import com.hedera.hashgraph.identity.hcs.did.HcsDidMessage;
 import com.hedera.hashgraph.identity.utils.Validator;
 import com.hedera.hashgraph.sdk.PublicKey;
 import com.hedera.hashgraph.sdk.TopicId;
+
+import java.util.List;
 import java.util.function.UnaryOperator;
-import java8.util.Lists;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -68,7 +69,7 @@ public class HcsVcTransaction extends MessageTransaction<HcsVcMessage> {
 
   @Override
   protected MessageListener<HcsVcMessage> provideTopicListener(final TopicId topicIdToListen) {
-    return new HcsVcTopicListener(topicIdToListen, s -> Lists.of(signerPublicKey));
+    return new HcsVcTopicListener(topicIdToListen, s -> List.of(signerPublicKey));
   }
 
   @Override

@@ -3,7 +3,8 @@ package com.hedera.hashgraph.identity.hcs.example.appnet.dto;
 import com.google.gson.annotations.Expose;
 import com.hedera.hashgraph.identity.hcs.vc.HcsVcMessage;
 import com.hedera.hashgraph.identity.hcs.vc.HcsVcOperation;
-import org.threeten.bp.Instant;
+
+import java.time.Instant;
 
 /**
  * A status of verifiable credential in VC registry.

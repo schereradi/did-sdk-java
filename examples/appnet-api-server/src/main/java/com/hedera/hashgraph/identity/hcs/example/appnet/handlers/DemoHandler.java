@@ -19,9 +19,10 @@ import com.hedera.hashgraph.identity.hcs.vc.HcsVcMessage;
 import com.hedera.hashgraph.identity.utils.JsonUtils;
 import com.hedera.hashgraph.sdk.PrivateKey;
 import java.nio.charset.StandardCharsets;
+import java.time.Instant;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.threeten.bp.Instant;
 import ratpack.handling.Context;
 import ratpack.http.Status;
 import ratpack.jackson.Jackson;

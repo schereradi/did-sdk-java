@@ -1,9 +1,8 @@
 package com.hedera.hashgraph.identity.utils;
 
 import com.google.common.collect.ImmutableList;
-import org.threeten.bp.Instant;
-import org.threeten.bp.format.DateTimeFormatter;
 
+import java.time.format.DateTimeFormatter;
 
 /**
  * Gson type adapter for serialization/deserialization between {@link Instant} and ISO 8601 date format.

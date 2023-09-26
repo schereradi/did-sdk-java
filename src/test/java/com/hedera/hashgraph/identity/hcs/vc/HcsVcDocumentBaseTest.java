@@ -7,7 +7,8 @@ import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestMethodOrder;
-import org.threeten.bp.Instant;
+
+import java.time.Instant;
 
 import static org.junit.jupiter.api.Assertions.*;
 

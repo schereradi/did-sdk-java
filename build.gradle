@@ -15,8 +15,8 @@ group = 'com.hedera.hashgraph'
 version = '1.0.1'
 description = 'Hedera™ DiD SDK'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 17
+targetCompatibility = 17
 
 repositories {
     jcenter()
