@@ -86,6 +86,7 @@ public class HcsVcDocumentBase<T extends CredentialSubject> extends HcsVcDocumen
     map.put(HcsVcDocumentJsonProperties.TYPE, this.type);
     map.put(HcsVcDocumentJsonProperties.ISSUER, this.issuer.getId());
     map.put(HcsVcDocumentJsonProperties.ISSUANCE_DATE, this.issuanceDate);
+    map.put(HcsVcDocumentJsonProperties.CREDENTIAL_SUBJECT, this.credentialSubject);
 
     String json = JsonUtils.getGson().toJson(map);
     byte[] hash = Hashing.sha256().hashBytes(json.getBytes(StandardCharsets.UTF_8)).asBytes();
